@@ -1,7 +1,7 @@
 package com.example.petshop
 
-class Sad(mood:String):Mood(mood) {
+class Sad(date:String):Mood(date) {
     override fun getMood(): String {
-        return "This object is $mood"
+        return "This object is sad"
     }
 }
